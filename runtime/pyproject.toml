@@ -76,6 +76,8 @@ dependencies = [
     "xformers",
     "catboost",
     "xgboost",
+    "tensorflow[and-cuda]",
+    "tf-keras",
 ]
 
 [tool.uv]
